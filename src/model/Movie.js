@@ -19,7 +19,11 @@ Movie.loadAll = function()
 {
     var hd = false;
     var error = false;
-    $.getJSON("src/data/movies.json", function(json)
+    var url = "src/data/movies.json"
+    // var url = "https://baezcrdrm.github.io/caras-y-gestos/src/data/movies.json?callback=?";
+    //var url = "http://18.221.160.127/caras-y-gestos/src/data/movies.json";
+
+    $.getJSON(url, function(json)
     {
         console.log(json);
         var keys=[];
