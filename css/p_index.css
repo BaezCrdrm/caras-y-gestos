@@ -1,29 +1,43 @@
-html, body, section {
-    height: 100%;
+header {
+    height: 50px;
 }
 
 section {
     width: 100%;
-    text-align: center;
 }
 
-#btnGetRandom {
-    width: 250px;
-    height: 80px;
-    margin-top:100px;
-    margin-bottom: 50px;
+    #a_NewGame {
+        margin-top: 15px;
+        margin-right: 15px;
+        float: right;
+    }
 
-    background-color: #4dc3ff;
-    border: 2px solid white;
-    border-radius: 35px;
+    .div_mainButtonContainer {
+        text-align: center;
+    }
 
-    font-size: 24px;
-    color:white;
-    font-weight: bold;
-}
+        #btnGetRandom {
+            width: 250px;
+            height: 80px;
+            margin-top:100px;
+            margin-bottom: 50px;
 
-#p_movie {
-    font-size: 32px;
-    color:#303030;
-    font-weight: bold;
-}
+            background-color: #4dc3ff;
+            border: 2px solid white;
+            border-radius: 35px;
+
+            font-size: 24px;
+            color:white;
+            font-weight: bold;
+        }
+
+        #btnGetRandom:hover {
+            background-color:#31b8fc;
+            cursor: pointer;
+        }
+
+    #p_movie {
+        font-size: 32px;
+        color:#303030;
+        font-weight: bold;
+    }

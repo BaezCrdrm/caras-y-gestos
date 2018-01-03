@@ -1,6 +1,6 @@
 $("document").ready(function()
 {
-    
+    $("#p_movie").text("");
 });
 
 function getRandomMovie()
@@ -41,4 +41,22 @@ var removeByAttr = function(arr, attr, value)
        }
     }
     return arr;
+}
+
+function newGame()
+{
+    Movie.instances = {};
+    Movie.instances = [];
+
+    Movie.loadAll();
+    $("#p_movie").text("");
+}
+
+function newGame_conf()
+{
+    var conf = confirm("¿Iniciar nuevo juego? Olvidará las películas que has visto anteriormente.");
+    if(conf == true)
+    {
+        newGame();
+    }
 }

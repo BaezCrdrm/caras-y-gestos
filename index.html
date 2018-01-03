@@ -18,10 +18,17 @@
     </script>
 </head>
 <body>
+    <header>        
+        <a id="a_NewGame" href="#" onclick="newGame_conf()">Nuevo juego</a>
+    </header>
+
     <section>
-        <button id="btnGetRandom" onclick="getRandomMovie()">Nueva película</button>
-        <br><br>
-        <p id="p_movie"></p>
+        <div class="div_mainButtonContainer">
+            <button id="btnGetRandom" onclick="getRandomMovie()">Nueva película</button>
+
+        <br>
+        <p id="p_movie">Movie</p>
+        </div>
     </section>
 </body>
 </html>
