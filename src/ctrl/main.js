@@ -1,6 +1,8 @@
 $("document").ready(function()
 {
-    
+    $("#p_movie").text("");
+    $("#h_usedMovies").hide();
+    $("#ul_usedMovies").hide();
 });
 
 function getRandomMovie()
@@ -18,7 +20,15 @@ function getRandomMovie()
 
         removeByAttr(Movie.allMovies, 'id', randMovie.id);
         Movie.usedMovies[Movie.usedMovies.length] = randMovie;
-        document.getElementById("p_movie").innerHTML = randMovie.title;
+        $("#p_movie").text(randMovie.title);
+        
+        $("#ul_usedMovies").append("<li tabindex='1'>" + randMovie.title + "</li>");
+        $('li').last().addClass('active-li').focus();
+
+        if($("#h_usedMovies")[0].style.display == "none")
+        {
+            $("#h_usedMovies").show();
+        }
     }
     else {
         alert("Ya no hay más películas en el el registro 😶");
@@ -41,4 +51,36 @@ var removeByAttr = function(arr, attr, value)
        }
     }
     return arr;
+}
+
+function newGame()
+{
+    Movie.instances = {};
+    Movie.instances = [];
+
+    Movie.loadAll();
+    $("#p_movie").text("");
+
+    $("#ul_usedMovies").empty();
+    $("#h_usedMovies").hide();
+}
+
+function newGame_conf()
+{
+    var conf = confirm("¿Iniciar nuevo juego? Olvidará las películas que has visto anteriormente.");
+    if(conf == true)
+    {
+        newGame();
+    }
+}
+
+function expandRetractList()
+{
+    var time = 400;
+    if($("#ul_usedMovies")[0].style.display == "none")
+    {
+        $("#ul_usedMovies").show(time)
+    }
+    else
+        $("#ul_usedMovies").hide(time);
 }

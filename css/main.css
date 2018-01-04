@@ -1,4 +1,14 @@
+:root {
+    --main-color: #4dc3ff;
+    --sec-color: #31b8fc;
+}
+
 * {
     margin: 0;
     padding: 0;
+}
+
+a, a:visited {
+    color: var(--main-color);
+    text-decoration: none;
 }
