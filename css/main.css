@@ -1,14 +1,17 @@
 :root {
     --main-color: #4dc3ff;
     --sec-color: #31b8fc;
+    --main-background-color: #ffffff;
 }
 
 * {
     margin: 0;
     padding: 0;
+
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: var(--main-background-color);
 }
 
 a, a:visited {
-    color: var(--main-color);
     text-decoration: none;
 }
