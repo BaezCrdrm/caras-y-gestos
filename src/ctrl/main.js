@@ -77,10 +77,18 @@ function newGame_conf()
 function expandRetractList()
 {
     var time = 400;
+    var msg = "";
     if($("#ul_usedMovies")[0].style.display == "none")
     {
-        $("#ul_usedMovies").show(time)
+        $("#ul_usedMovies").show(time);
+        msg = "Selecciona para ocultar la lista de películas usadas";
+        $('li').last().addClass('active-li').focus();
     }
     else
+    {
         $("#ul_usedMovies").hide(time);
+        msg = "Selecciona para ver la lista de películas usadas";
+    }
+
+    $("#b_usedMovies")["0"].title = msg;
 }
