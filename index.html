@@ -15,6 +15,12 @@
 
     <script>
         window.addEventListener("load", pl.view.listMovies.setupUserInterface);
+        window.addEventListener("beforeunload", function(e) {
+            var msg = 'Recargar o cerrar la página eliminará las películas que has usado.';
+
+            (e || window.event).returnValue = msg; // Gecko + IE
+            return msg; // Gecko +  Webkit, safari, Chrome, etc.
+        })
     </script>
 </head>
 <body>
