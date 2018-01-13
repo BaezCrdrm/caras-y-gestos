@@ -70,6 +70,12 @@ function newGame()
 
     $("#ul_usedMovies").empty();
     $("#b_usedMovies").hide();
+
+    $("#btn_HideShow")[0].style.backgroundColor = '#ffffff';
+    $("#btn_HideShow")[0].title = "Ocultar película";
+    $("#p_movie")[0].style.color = color_cont;
+    $("#btn_HideShow").hide();
+    hide = false;
 }
 
 function newGame_conf()
