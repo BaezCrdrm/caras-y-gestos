@@ -15,6 +15,12 @@
 
     <script>
         window.addEventListener("load", pl.view.listMovies.setupUserInterface);
+        window.addEventListener("beforeunload", function(e) {
+            var msg = 'Recargar o cerrar la página eliminará las películas que has usado.';
+
+            (e || window.event).returnValue = msg; // Gecko + IE
+            return msg; // Gecko +  Webkit, safari, Chrome, etc.
+        })
     </script>
 </head>
 <body>
@@ -27,7 +33,16 @@
             <button id="btnGetRandom" onclick="getRandomMovie()">Nueva película</button>
 
             <br>
-            <p id="p_movie">Movie</p>
+            <table>
+                <td>
+                    <p id="p_movie">Movie</p>
+                </td>
+                <td>
+                    <button id="btn_HideShow" class="btn_hide_show" onclick="toggle_hide_show()" title="Ocultar película">
+                        <img class="b_img_hide_show" src="img/icon_eye_show.png" />
+                    </button>
+                </td>
+            </table>
         </div>
 
         <button id="b_usedMovies" onclick="expandRetractList()" title="Selecciona para ver la lista de películas usadas">Ver películas usadas</button>

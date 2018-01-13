@@ -45,118 +45,307 @@
         "id": "7",
         "title": "La vida es bella",
         "year": "1997",
-        "info": "http://www.imdb.com/title/tt0118799/?ref_=nv_sr_1"
+        "info": "http://www.imdb.com/title/tt0118799/"
     },
 
     {
         "id": "8",
         "title": "Hombres de negro",
         "year": "1997",
-        "info": "http://www.imdb.com/title/tt0119654/?ref_=nv_sr_1"
+        "info": "http://www.imdb.com/title/tt0119654/"
     },
 
     {
         "id": "9",
         "title": "Día de la independencia",
         "year": "1996",
-        "info": "http://www.imdb.com/title/tt0116629/?ref_=nv_sr_2"
+        "info": "http://www.imdb.com/title/tt0116629/"
     },
 
     {
         "id": "10",
         "title": "Danza con lobos",
         "year": "1990",
-        "info": "http://www.imdb.com/title/tt0099348/?ref_=nv_sr_1"
+        "info": "http://www.imdb.com/title/tt0099348/"
     },
 
     {
         "id": "11",
         "title": "Mi pobre Angelito",
         "year": "1990",
-        "info": "http://www.imdb.com/title/tt0099785/?ref_=nv_sr_1"
+        "info": "http://www.imdb.com/title/tt0099785/"
     },
 
     {
         "id": "12",
         "title": "Gravedad",
         "year": "2013",
-        "info": "http://www.imdb.com/title/tt1454468/?ref_=nv_sr_1"
+        "info": "http://www.imdb.com/title/tt1454468/"
     },
 
     {
         "id": "13",
         "title": "El día que la tierra se detuvo",
         "year": "2008",
-        "info": "http://www.imdb.com/title/tt0970416/?ref_=nv_sr_1"
+        "info": "http://www.imdb.com/title/tt0970416/"
     },
 
     {
         "id": "14",
         "title": "Corazón valiente",
         "year": "1995",
-        "info": "http://www.imdb.com/title/tt0112573/?ref_=nv_sr_1"
+        "info": "http://www.imdb.com/title/tt0112573/"
     },
 
     {
         "id": "15",
         "title": "Virgen a los 40",
         "year": "2005",
-        "info": "http://www.imdb.com/title/tt0405422/?ref_=nv_sr_1"
+        "info": "http://www.imdb.com/title/tt0405422/"
     },
 
     {
         "id": "16",
         "title": "Los cazafantasmas",
         "year": "1984",
-        "info": "http://www.imdb.com/title/tt0087332/?ref_=nv_sr_1"
+        "info": "http://www.imdb.com/title/tt0087332/"
     },
 
     {
         "id": "17",
         "title": "Pequeñas grandes amigas",
         "year": "2003",
-        "info": "http://www.imdb.com/title/tt0263757/?ref_=nv_sr_1"
+        "info": "http://www.imdb.com/title/tt0263757/"
     },
 
     {
         "id": "18",
         "title": "Mi novia Polly",
         "year": "2004",
-        "info": "http://www.imdb.com/title/tt0343135/?ref_=ttls_li_i"
+        "info": "http://www.imdb.com/title/tt0343135/"
     },
 
     {
         "id": "19",
         "title": "Una esposa de mentira",
         "year": "2011",
-        "info": "http://www.imdb.com/title/tt1564367/?ref_=nv_sr_1"
+        "info": "http://www.imdb.com/title/tt1564367/"
     },
 
     {
         "id": "20",
         "title": "Ya estoy extrañandote",
         "year": "2015",
-        "info": "http://www.imdb.com/title/tt2245003/?ref_=nv_sr_1"
+        "info": "http://www.imdb.com/title/tt2245003/"
     },
 
     {
         "id": "21",
         "title": "Duro de matar",
         "year": "1998",
-        "info": "http://www.imdb.com/title/tt0095016/?ref_=nv_sr_1"
+        "info": "http://www.imdb.com/title/tt0095016/"
     },
 
     {
         "id": "22",
         "title": "A corazón abierto",
         "year": "2002",
-        "info": "http://www.imdb.com/title/tt0315543/?ref_=nv_sr_1"
+        "info": "http://www.imdb.com/title/tt0315543/"
     },
 
     {
         "id": "23",
         "title": "Nosotros los nobles",
         "year": "2013",
-        "info": "http://www.imdb.com/title/tt2222394/?ref_=nv_sr_1"
+        "info": "http://www.imdb.com/title/tt2222394/"
+    },
+
+    {
+        "id": "24",
+        "title": "El señor de los anillos",
+        "year": "2001",
+        "info": "http://www.imdb.com/title/tt0120737/"
+    },
+
+    {
+        "id": "25",
+        "title": "El increíble Hulk",
+        "year": "2008",
+        "info": "http://www.imdb.com/title/tt0800080/"
+    },
+
+    {
+        "id": "26",
+        "title": "El hombre araña",
+        "year": "2002",
+        "info": "http://www.imdb.com/title/tt0145487/"
+    },
+
+    {
+        "id": "27",
+        "title": "Golpe bajo",
+        "year": "2005",
+        "info": "http://www.imdb.com/title/tt0398165/"
+    },
+
+    {
+        "id": "28",
+        "title": "¿Dónde están las rubias?",
+        "year": "2004",
+        "info": "http://www.imdb.com/title/tt0381707/"
+    },
+
+    {
+        "id": "29",
+        "title": "Los juegos del hambre",
+        "year": "2012",
+        "info": "http://www.imdb.com/title/tt1392170/"
+    },
+
+    {
+        "id": "30",
+        "title": "Star Trek",
+        "year": "2009",
+        "info": "http://www.imdb.com/title/tt0796366/"
+    },
+
+    {
+        "id": "31",
+        "title": "Rápido y furioso",
+        "year": "2001",
+        "info": "http://www.imdb.com/title/tt0232500/"
+    },
+
+    {
+        "id": "32",
+        "title": "Zootopia",
+        "year": "2016",
+        "info": "http://www.imdb.com/title/tt2948356/"
+    },
+
+    {
+        "id": "33",
+        "title": "La máscara del zorro",
+        "year": "1998",
+        "info": "http://www.imdb.com/title/tt0120746/"
+    },
+
+    {
+        "id": "34",
+        "title": "La guerra de los mundos",
+        "year": "2005",
+        "info": "http://www.imdb.com/title/tt0407304/"
+    },
+
+    {
+        "id": "35",
+        "title": "Soy leyenda",
+        "year": "2007",
+        "info": "http://www.imdb.com/title/tt0480249/"
+    },
+
+    {
+        "id": "36",
+        "title": "Yo robot",
+        "year": "2004",
+        "info": "http://www.imdb.com/title/tt0343818/"
+    },
+
+    {
+        "id": "37",
+        "title": "Iron man",
+        "year": "2008",
+        "info": "http://www.imdb.com/title/tt0371746/"
+    },
+
+    {
+        "id": "38",
+        "title": "Capitán América",
+        "year": "2011",
+        "info": "http://www.imdb.com/title/tt0458339/"
+    },
+
+    {
+        "id": "39",
+        "title": "Mad Max",
+        "year": "2015",
+        "info": "http://www.imdb.com/title/tt1392190/"
+    },
+
+    {
+        "id": "40",
+        "title": "Terminator",
+        "year": "1984",
+        "info": "http://www.imdb.com/title/tt0088247/"
+    },
+
+    {
+        "id": "41",
+        "title": "Titanic",
+        "year": "1997",
+        "info": "http://www.imdb.com/title/tt0120338/"
+    },
+
+    {
+        "id": "42",
+        "title": "Eso",
+        "year": "2017",
+        "info": "http://www.imdb.com/title/tt1396484/"
+    },
+
+    {
+        "id": "43",
+        "title": "El resplandor",
+        "year": "1980",
+        "info": "http://www.imdb.com/title/tt0081505/"
+    },
+
+    {
+        "id": "44",
+        "title": "Batman v Superman",
+        "year": "2016",
+        "info": "http://www.imdb.com/title/tt2975590/"
+    },
+
+    {
+        "id": "45",
+        "title": "Scott Pilgrim contran el mundo",
+        "year": "2010",
+        "info": "http://www.imdb.com/title/tt0446029/"
+    },
+
+    {
+        "id": "46",
+        "title": "Space Jam",
+        "year": "1996",
+        "info": "http://www.imdb.com/title/tt0117705/"
+    },
+
+    {
+        "id": "47",
+        "title": "Van Helsing",
+        "year": "2004",
+        "info": "http://www.imdb.com/title/tt0338526/"
+    },
+
+    {
+        "id": "48",
+        "title": "Gladiador",
+        "year": "2000",
+        "info": "http://www.imdb.com/title/tt0172495/"
+    },
+
+    {
+        "id": "49",
+        "title": "Tiburón",
+        "year": "1975",
+        "info": "http://www.imdb.com/title/tt0073195/"
+    },
+
+    {
+        "id": "50",
+        "title": "El principito",
+        "year": "2015",
+        "info": "http://www.imdb.com/title/tt1754656/"
     }
 ]
