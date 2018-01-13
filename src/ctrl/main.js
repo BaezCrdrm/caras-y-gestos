@@ -1,8 +1,14 @@
+var color_cont = '#303030';
+var color_cam = '#ddf4ff';
+var color_main = '#4dc3ff';
+var hide = false;
+
 $("document").ready(function()
 {
     $("#p_movie").text("");
     $("#b_usedMovies").hide();
     $("#ul_usedMovies").hide();
+    $("#btn_HideShow").hide();
 });
 
 function getRandomMovie()
@@ -28,6 +34,7 @@ function getRandomMovie()
         if($("#b_usedMovies")[0].style.display == "none")
         {
             $("#b_usedMovies").show();
+            $("#btn_HideShow").show();
         }
     }
     else {
@@ -71,6 +78,24 @@ function newGame_conf()
     if(conf == true)
     {
         newGame();
+    }
+}
+
+function toggle_hide_show()
+{
+    if(hide == false)
+    {
+        $("#btn_HideShow")[0].style.backgroundColor = color_main;
+        $("#btn_HideShow")[0].title = "Ocultar película";
+        $("#p_movie")[0].style.color = color_cam;
+
+        hide = true;
+    } else {
+        $("#btn_HideShow")[0].style.backgroundColor = '#ffffff';
+        $("#btn_HideShow")[0].title = "Mostrar película";
+        $("#p_movie")[0].style.color = color_cont;
+
+        hide = false;
     }
 }
 
